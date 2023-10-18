@@ -5,7 +5,12 @@
     <projectFile>Intermediate/ProjectFiles/UE5.vcxproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ab0ec1a-c931-414c-8bfd-880272398ef8" name="Changes" comment="" />
+    <list default="true" id="3ab0ec1a-c931-414c-8bfd-880272398ef8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mgfps/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mgfps/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vsconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.vsconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mgfps.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/Mgfps.uproject" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +29,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "UnrealLinkOptionsId",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -158,6 +164,7 @@
       <updated>1696433299255</updated>
       <workItem from="1696433301126" duration="75000" />
       <workItem from="1696433403844" duration="1209000" />
+      <workItem from="1697643260874" duration="869000" />
     </task>
     <servers />
   </component>
@@ -167,5 +174,9 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
