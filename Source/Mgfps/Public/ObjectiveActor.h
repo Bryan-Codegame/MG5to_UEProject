@@ -6,6 +6,8 @@
 #include "GameFramework/Actor.h"
 #include "ObjectiveActor.generated.h"
 
+class USphereComponent;
+
 UCLASS()
 class MGFPS_API AObjectiveActor : public AActor
 {
@@ -18,6 +20,12 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	UPROPERTY(VisibleAnywhere, Category="Components")
+	UStaticMeshComponent* MeshComp;
+	
+	UPROPERTY(VisibleAnywhere, Category="Components")
+	USphereComponent* SphereComp;
 
 public:	
 	// Called every frame
