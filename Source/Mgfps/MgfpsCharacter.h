@@ -43,6 +43,9 @@ class AMgfpsCharacter : public ACharacter
 public:
 	AMgfpsCharacter();
 
+	UPROPERTY(BlueprintReadOnly, Category="Gameplay")
+	bool bIsCarryingObjective;
+
 protected:
 	virtual void BeginPlay();
 
