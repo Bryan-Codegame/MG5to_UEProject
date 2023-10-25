@@ -9,11 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e1008e18-05ae-4c5b-9101-63d28f3b8d07" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Mgfps/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mgfps/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/FirstPerson/Blueprints/BP_Objective.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FirstPerson/Blueprints/BP_Objective.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Mgfps/MgfpsCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Mgfps/MgfpsCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Mgfps/Private/ObjectiveActor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Mgfps/Private/ObjectiveActor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Mgfps/Public/ObjectiveActor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Mgfps/Public/ObjectiveActor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/WBP_ObjectiveInfo.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/WBP_ObjectiveInfo.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,27 +25,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\BRIAN\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
-      "C:\\Users\\BRIAN\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
-      "C:\\Users\\BRIAN\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\BRIAN\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\BRIAN\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\BRIAN\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Mgfps" type="CppProject" factoryName="C++ Project">
       <configuration_1>
@@ -122,7 +118,8 @@
       <option name="presentableId" value="Default" />
       <updated>1697814585335</updated>
       <workItem from="1697814586422" duration="519000" />
-      <workItem from="1698074996950" duration="2787000" />
+      <workItem from="1698074996950" duration="3378000" />
+      <workItem from="1698248199686" duration="566000" />
     </task>
     <servers />
   </component>
