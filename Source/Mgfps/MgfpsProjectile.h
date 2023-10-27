@@ -14,7 +14,7 @@ class AMgfpsProjectile : public AActor
 {
 	GENERATED_BODY()
 
-	/** Sphere collision component */
+	/** Sphere collision component  */
 	UPROPERTY(VisibleDefaultsOnly, Category=Projectile)
 	USphereComponent* CollisionComp;
 
