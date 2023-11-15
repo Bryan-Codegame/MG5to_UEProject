@@ -3,6 +3,10 @@
 
 #include "ObjectiveZone.h"
 
+#include "Components/DecalComponent.h"
+#include "Mgfps/MgfpsCharacter.h"
+#include "Mgfps/MgfpsGameMode.h"
+
 // Sets default values
 AObjectiveZone::AObjectiveZone()
 {
@@ -11,14 +15,18 @@ AObjectiveZone::AObjectiveZone()
 	OverlapComp->SetCollisionEnabled(ECollisionEnabled::QueryOnly);
 	OverlapComp->SetCollisionResponseToChannels(ECR_Ignore);
 	OverlapComp->SetCollisionResponseToChannel(ECC_Pawn, ECR_Overlap);
-
+	
 	OverlapComp->SetBoxExtent(FVector(200.f));
 
 	RootComponent = OverlapComp;
 
 	OverlapComp->SetHiddenInGame(false);
-
 	OverlapComp->OnComponentBeginOverlap.AddDynamic(this, &ThisClass::HandleOverlap);
+
+	//Decal Component
+	DecalComp = CreateDefaultSubobject<UDecalComponent>(TEXT("DecalComp"));
+	DecalComp->DecalSize = FVector(200.0f);
+	DecalComp->SetupAttachment(RootComponent);
 	
 }
 
@@ -42,6 +50,24 @@ void AObjectiveZone::HandleOverlap(UPrimitiveComponent* OverlappedComponent, AAc
 			FColor::Green,
 			FString::Printf(TEXT("Overlapped")));
 	}
+
+	AMgfpsCharacter* MyPawn = Cast<AMgfpsCharacter>(OtherActor);
+
+	if (MyPawn == nullptr)
+	{
+		return;
+	}
+
+	if (MyPawn->bIsCarryingObjective)
+	{
+		AMgfpsGameMode* GM = Cast<AMgfpsGameMode>(GetWorld()->GetAuthGameMode());
+
+		if (GM)
+		{
+			GM->CompleteMission(MyPawn);
+		}
+	}
+	
 }
 
 

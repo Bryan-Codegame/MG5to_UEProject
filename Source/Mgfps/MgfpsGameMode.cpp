@@ -12,3 +12,14 @@ AMgfpsGameMode::AMgfpsGameMode()
 	DefaultPawnClass = PlayerPawnClassFinder.Class;
 
 }
+
+void AMgfpsGameMode::CompleteMission(APawn* Pawn)
+{
+	if (Pawn)
+	{
+		Pawn->DisableInput(nullptr);
+	}
+
+	//Show UI Mission Complete by AddToViewport
+	OnMissionCompleted(Pawn);
+}

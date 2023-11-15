@@ -13,6 +13,11 @@ class AMgfpsGameMode : public AGameModeBase
 
 public:
 	AMgfpsGameMode();
+	
+	void CompleteMission(APawn* Pawn);
+
+	UFUNCTION(BlueprintImplementableEvent, Category="GameMode")
+	void OnMissionCompleted(APawn* Pawn);
 };
 
 
